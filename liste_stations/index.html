@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EV Charge Maroc - Stations de recharge</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page-container">
+      <header class="main-header">
+        <div class="logo-container">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets/bf3934ef47c34024b3445b90b3c37150/006b449052983843ec123179df214a7072399fb0?placeholderIfAbsent=true"
+            alt="EV Charge Maroc Logo"
+            class="logo-image"
+          />
+          <h1 class="brand-name">EV Charge Maroc</h1>
+        </div>
+        <nav class="main-nav">
+          <a href="#" class="nav-link active">Accueil</a>
+          <a href="#" class="nav-link">Stations</a>
+          <a href="#" class="nav-link">Reservations</a>
+        </nav>
+        <div class="auth-section">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets/bf3934ef47c34024b3445b90b3c37150/0749ee139f9dacdbbff2b2a280bedfc2f67c8a13?placeholderIfAbsent=true"
+            alt="User"
+            class="user-icon"
+          />
+          <button class="login-button">Connexion</button>
+        </div>
+      </header>
+
+      <main class="main-content">
+        <section class="hero-section">
+          <h1 class="page-title">Stations de recharge</h1>
+          <p class="page-description">
+            Trouvez des stations de recharge pour véhicules électriques partout
+            au Maroc.
+          </p>
+
+          <div class="search-controls">
+            <div class="search-input">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/bf3934ef47c34024b3445b90b3c37150/012e558f792b55184038d7702a7762245ec50e95?placeholderIfAbsent=true"
+                alt="Search"
+                class="search-icon"
+              />
+              <input
+                type="text"
+                placeholder="Rechercher par ville, adresse ou nom de station..."
+              />
+            </div>
+            <button class="filter-button">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/bf3934ef47c34024b3445b90b3c37150/9cba09b1252d70f7dadcd7ecbf9167a6fddf6fd6?placeholderIfAbsent=true"
+                alt="Filter"
+                class="filter-icon"
+              />
+              <span>Filtres</span>
+            </button>
+            <button class="proximity-button">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/bf3934ef47c34024b3445b90b3c37150/662d455b30bb3f79722a218296168b989ff420c4?placeholderIfAbsent=true"
+                alt="Location"
+                class="location-icon"
+              />
+              <span>À proximité</span>
+            </button>
+          </div>
+
+          <div class="view-tabs" role="tablist">
+            <button role="tab" class="tab-button">Carte</button>
+            <button role="tab" class="tab-button active">Liste</button>
+          </div>
+        </section>
+
+        <section class="stations-list">
+          <div class="list-header">
+            <h2 class="list-title">Liste des stations</h2>
+            <button class="sort-button">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/bf3934ef47c34024b3445b90b3c37150/0c4060072064c6c6742d7c0bd614720b0a87eb0a?placeholderIfAbsent=true"
+                alt="Sort"
+                class="sort-icon"
+              />
+              <span>Trier</span>
+            </button>
+          </div>
+
+          <article class="station-card">
+            <div class="station-info">
+              <div class="station-header">
+                <h3 class="station-name">Station Casablanca Centre</h3>
+                <span class="status-badge available">Disponible</span>
+              </div>
+              <div class="station-address">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/bf3934ef47c34024b3445b90b3c37150/5dd68f39febd49499f215603e939a765ec3237ce?placeholderIfAbsent=true"
+                  alt="Location"
+                  class="location-icon"
+                />
+                <span>123 Avenue Hassan II, Casablanca</span>
+              </div>
+              <div class="station-actions">
+                <button class="details-button">Détails</button>
+                <button class="reserve-button">Réserver</button>
+              </div>
+            </div>
+            <div class="station-capacity">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/bf3934ef47c34024b3445b90b3c37150/4e6a96f70beb7d0788031fe35363f158f59f7528?placeholderIfAbsent=true"
+                alt="Charging"
+                class="charging-icon"
+              />
+              <span>2/4 points • 50 kW</span>
+            </div>
+          </article>
+
+          <article class="station-card">
+            <div class="station-info">
+              <div class="station-header">
+                <h3 class="station-name">Station Rabat Agdal</h3>
+                <span class="status-badge occupied">Occupé</span>
+              </div>
+              <div class="station-address">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/bf3934ef47c34024b3445b90b3c37150/bb8892e23531e4fa83cb5151f36cf5d5f846f3ad?placeholderIfAbsent=true"
+                  alt="Location"
+                  class="location-icon"
+                />
+                <span>45 Avenue Fal Ould Oumeir, Rabat</span>
+              </div>
+              <div class="station-actions">
+                <button class="details-button">Détails</button>
+                <button class="reserve-button">Réserver</button>
+              </div>
+            </div>
+            <div class="station-capacity">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/bf3934ef47c34024b3445b90b3c37150/5a5d29c89eceafe1ec87ec6d22e16dd2d7263bed?placeholderIfAbsent=true"
+                alt="Charging"
+                class="charging-icon"
+              />
+              <span>0/6 points • 150 kW</span>
+            </div>
+          </article>
+
+          <article class="station-card">
+            <div class="station-info">
+              <div class="station-header">
+                <h3 class="station-name">Station Marrakech Gueliz</h3>
+                <span class="status-badge available">Disponible</span>
+              </div>
+              <div class="station-address">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/bf3934ef47c34024b3445b90b3c37150/a7627819b4be7c0672f7e741b43273d9a71de440?placeholderIfAbsent=true"
+                  alt="Location"
+                  class="location-icon"
+                />
+                <span>78 Avenue Mohammed V, Marrakech</span>
+              </div>
+              <div class="station-actions">
+                <button class="details-button">Détails</button>
+                <button class="reserve-button">Réserver</button>
+              </div>
+            </div>
+            <div class="station-capacity">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/bf3934ef47c34024b3445b90b3c37150/cef2087e725bfaa44a9b0e2d5ebae7876a558bab?placeholderIfAbsent=true"
+                alt="Charging"
+                class="charging-icon"
+              />
+              <span>5/8 points • 100 kW</span>
+            </div>
+          </article>
+
+          <article class="station-card">
+            <div class="station-info">
+              <div class="station-header">
+                <h3 class="station-name">Station Tanger Ville</h3>
+                <span class="status-badge available">Disponible</span>
+              </div>
+              <div class="station-address">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/bf3934ef47c34024b3445b90b3c37150/5dd68f39febd49499f215603e939a765ec3237ce?placeholderIfAbsent=true"
+                  alt="Location"
+                  class="location-icon"
+                />
+                <span>12 Boulevard Mohammed VI, Tanger</span>
+              </div>
+              <div class="station-actions">
+                <button class="details-button">Détails</button>
+                <button class="reserve-button">Réserver</button>
+              </div>
+            </div>
+            <div class="station-capacity">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/bf3934ef47c34024b3445b90b3c37150/4e6a96f70beb7d0788031fe35363f158f59f7528?placeholderIfAbsent=true"
+                alt="Charging"
+                class="charging-icon"
+              />
+              <span>3/4 points • 50 kW</span>
+            </div>
+          </article>
+
+          <article class="station-card">
+            <div class="station-info">
+              <div class="station-header">
+                <h3 class="station-name">Station Fès Médina</h3>
+                <span class="status-badge maintenance">En maintenance</span>
+              </div>
+              <div class="station-address">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/bf3934ef47c34024b3445b90b3c37150/bb8892e23531e4fa83cb5151f36cf5d5f846f3ad?placeholderIfAbsent=true"
+                  alt="Location"
+                  class="location-icon"
+                />
+                <span>34 Avenue Hassan II, Fès</span>
+              </div>
+              <div class="station-actions">
+                <button class="details-button">Détails</button>
+                <button class="reserve-button">Réserver</button>
+              </div>
+            </div>
+            <div class="station-capacity">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/bf3934ef47c34024b3445b90b3c37150/5a5d29c89eceafe1ec87ec6d22e16dd2d7263bed?placeholderIfAbsent=true"
+                alt="Charging"
+                class="charging-icon"
+              />
+              <span>0/6 points • 100 kW</span>
+            </div>
+          </article>
+
+          <article class="station-card">
+            <div class="station-info">
+              <div class="station-header">
+                <h3 class="station-name">Station Agadir Centre</h3>
+                <span class="status-badge available">Disponible</span>
+              </div>
+              <div class="station-address">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/bf3934ef47c34024b3445b90b3c37150/a7627819b4be7c0672f7e741b43273d9a71de440?placeholderIfAbsent=true"
+                  alt="Location"
+                  class="location-icon"
+                />
+                <span>56 Boulevard Mohammed V, Agadir</span>
+              </div>
+              <div class="station-actions">
+                <button class="details-button">Détails</button>
+                <button class="reserve-button">Réserver</button>
+              </div>
+            </div>
+            <div class="station-capacity">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/bf3934ef47c34024b3445b90b3c37150/cef2087e725bfaa44a9b0e2d5ebae7876a558bab?placeholderIfAbsent=true"
+                alt="Charging"
+                class="charging-icon"
+              />
+              <span>6/8 points • 150 kW</span>
+            </div>
+          </article>
+        </section>
+      </main>
+
+      <footer class="main-footer">
+        <div class="footer-content">
+          <div class="footer-columns">
+            <div class="footer-brand">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/bf3934ef47c34024b3445b90b3c37150/006b449052983843ec123179df214a7072399fb0?placeholderIfAbsent=true"
+                alt="EV Charge Maroc Logo"
+                class="logo-image"
+              />
+              <div class="brand-info">
+                <h2 class="brand-name">EV Charge Maroc</h2>
+                <p class="brand-description">
+                  Système de gestion des stations de recharge<br />
+                  de véhicules électriques au Maroc.
+                </p>
+              </div>
+            </div>
+
+            <div class="footer-links">
+              <div class="footer-column">
+                <h3 class="footer-title">Liens Rapides</h3>
+                <nav class="footer-nav">
+                  <a href="#" class="footer-link">Accueil</a>
+                  <a href="#" class="footer-link">Reservations</a>
+                  <a href="#" class="footer-link">Stations</a>
+                </nav>
+              </div>
+
+              <div class="footer-column">
+                <h3 class="footer-title">Support</h3>
+                <nav class="footer-nav">
+                  <a href="#" class="footer-link">FAQ</a>
+                  <a href="#" class="footer-link">Contact</a>
+                  <a href="#" class="footer-link">Centre d'aide</a>
+                </nav>
+              </div>
+
+              <div class="footer-column">
+                <h3 class="footer-title">Suivez-nous</h3>
+                <div class="social-links">
+                  <a href="#" class="social-link">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets/bf3934ef47c34024b3445b90b3c37150/be892f9568b024bb619aa807bbc43c007459665e?placeholderIfAbsent=true"
+                      alt="Facebook"
+                      class="social-icon"
+                    />
+                  </a>
+                  <a href="#" class="social-link">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets/bf3934ef47c34024b3445b90b3c37150/956014c01293941486c485587152eeef525f3f45?placeholderIfAbsent=true"
+                      alt="Twitter"
+                      class="social-icon"
+                    />
+                  </a>
+                  <a href="#" class="social-link">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets/bf3934ef47c34024b3445b90b3c37150/171443c31720a4db4cb3626d46876a9a860f892f?placeholderIfAbsent=true"
+                      alt="Instagram"
+                      class="social-icon"
+                    />
+                  </a>
+                  <a href="#" class="social-link">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">© 2025 EV Charge Maroc. Tous droits réservés.</p>
+          <div class="legal-links">
+            <a href="#" class="legal-link">Politique de confidentialité</a>
+            <a href="#" class="legal-link">Conditions d'utilisation</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
